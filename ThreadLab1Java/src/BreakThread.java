@@ -1,12 +1,13 @@
 import java.util.List;
 
-public class BreakThread {
+public class BreakThread implements Runnable {
     private final List<MainThread> mainThreads;
 
     public BreakThread(List<MainThread> mainThreads) {
         this.mainThreads = mainThreads;
     }
 
+    @Override
     public void run() {
         long startTime = System.currentTimeMillis();
 

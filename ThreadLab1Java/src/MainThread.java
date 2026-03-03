@@ -1,4 +1,4 @@
-public class MainThread {
+public class MainThread implements Runnable {
     private long step;
     private int timeDuration;
     private long sum = 0;
@@ -21,6 +21,7 @@ public class MainThread {
         this.canStop = canStop;
     }
 
+    @Override
     public void run() {
         long counter = 0;
         long currentTime = System.currentTimeMillis();

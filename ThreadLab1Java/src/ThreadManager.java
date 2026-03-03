@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class ThreadManager {
+public class ThreadManager implements Runnable {
     private final short threadCount;
     private Scanner scanner;
 
@@ -11,7 +11,8 @@ public class ThreadManager {
         this.scanner = new Scanner(System.in);
     }
 
-    public void start() {
+    @Override
+    public void run() {
         List<Integer> durations = getDurations(threadCount);
 
         List<Integer> steps = getSteps(threadCount);
@@ -22,12 +23,12 @@ public class ThreadManager {
             MainThread mainThread = new MainThread(steps.get(i), durations.get(i));
             mainThreads.add(mainThread);
 
-            Thread thread = new Thread(mainThread::run);
+            Thread thread = new Thread(mainThread);
             thread.start();
         }
 
         BreakThread breakThread = new BreakThread(mainThreads);
-        Thread stopperThread = new Thread(breakThread::run);
+        Thread stopperThread = new Thread(breakThread);
 
         stopperThread.start();
 

@@ -19,8 +19,7 @@ public class App {
         }
 
         ThreadManager threadManager = new ThreadManager(threadCount);
-        threadManager.start();
-
-       
+        Thread managerThread = new Thread(threadManager);
+        managerThread.start();
     }
 }
