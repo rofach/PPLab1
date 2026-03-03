@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+D:\Users\rofach\Documents\GitHub\PPLab1\ThreadLab1Ada\hello_world.gpr
+20260303205956 71b920516734f633b77294587cab36e8
+[BOUND OBJECT FILES]
+D:\Users\rofach\Documents\GitHub\PPLab1\ThreadLab1Ada\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LD:\Users\rofach\Documents\GitHub\PPLab1\ThreadLab1Ada\obj\
+-LD:\Users\rofach\Documents\GitHub\PPLab1\ThreadLab1Ada\obj\
+-LD:/gnat/gnat-x86_64-windows64-15.1.0-2/lib/gcc/x86_64-w64-mingw32/15.1.0/adalib/
+-static
+D:/gnat/gnat-x86_64-windows64-15.1.0-2/lib/gcc/x86_64-w64-mingw32/15.1.0/adalib/libgnarl.a
+D:/gnat/gnat-x86_64-windows64-15.1.0-2/lib/gcc/x86_64-w64-mingw32/15.1.0/adalib/libgnat.a
+-Xlinker
+--stack=0x800000,0x1000
+-mthreads

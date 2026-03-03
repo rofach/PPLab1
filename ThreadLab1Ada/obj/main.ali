@@ -1,0 +1,178 @@
+V "GNAT Lib v15"
+M P W=b
+A -O0
+A -gnatA
+A -g
+A -gnat2022
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LONG_LONG_INTEGERS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=1+
+
+U main%b		main.adb		4d558050 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.concat_8%s	s-conca8.adb		s-conca8.ali
+Z system.img_fixed_64%s	s-imfi64.ads		s-imfi64.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.img_lli%s	s-imglli.ads		s-imglli.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20250425081800 76789da1 ada%s
+D a-assert.ads		20250425081800 ba465f5c ada.assertions%s
+D a-except.ads		20250425081800 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250425081800 bf4f806b ada.finalization%s
+D a-inteio.ads		20250425081800 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20250425081800 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20250425081800 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20250425081800 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20250425081800 31ff4aa1 ada.numerics.big_numbers.big_integers_ghost%s
+D a-reatim.ads		20250425081800 d11673fd ada.real_time%s
+D a-stream.ads		20250425081800 17477cbd ada.streams%s
+D a-string.ads		20250425081800 90ac6797 ada.strings%s
+D a-sttebu.ads		20250425081800 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250425081800 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250425081800 fbca0ad5 ada.tags%s
+D a-textio.ads		20250425081800 34ef47de ada.text_io%s
+D a-tiinio.ads		20250425081800 76699c8f ada.text_io.integer_io%s
+D a-unccon.ads		20250425081800 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20250425081800 9111f9c1 interfaces%s
+D i-c.ads		20250425081800 e94c966a interfaces.c%s
+D i-cstrin.ads		20250425081800 5409c1a4 interfaces.c.strings%s
+D i-cstrea.ads		20250425081800 ffd01b9d interfaces.c_streams%s
+D main.adb		20260303215320 5ee73dd7 main%b
+D system.ads		20250425081800 a869df9e system%s
+D s-atacco.ads		20250425081800 5868e3ba system.address_to_access_conversions%s
+D s-arit64.ads		20250425081800 e45973b2 system.arith_64%s
+D s-assert.ads		20250425081800 9c4520c7 system.assertions%s
+D s-conca2.ads		20250425081800 b5fb73f7 system.concat_2%s
+D s-conca4.ads		20250425081800 33f85f3e system.concat_4%s
+D s-conca8.ads		20250425081800 8d8f50c1 system.concat_8%s
+D s-crtl.ads		20250425081800 beb39b9e system.crtl%s
+D s-exctab.ads		20250425081800 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250425081800 dc5161d4 system.file_control_block%s
+D s-finroo.ads		20250425081800 0a7c3ed4 system.finalization_root%s
+D s-imagef.ads		20250425081800 2a557a85 system.image_f%s
+D s-imagei.ads		20250425081800 5e131ce0 system.image_i%s
+D s-imfi64.ads		20250425081800 c2808cae system.img_fixed_64%s
+D s-imgint.ads		20250425081800 67e4edfb system.img_int%s
+D s-imglli.ads		20250425081800 d88f4f3b system.img_lli%s
+D s-multip.ads		20250425081800 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20250425081800 35a74841 system.os_interface%s
+D s-oslock.ads		20250425081800 88eb514b system.os_locks%s
+D s-parame.ads		20250425081800 3597fc11 system.parameters%s
+D s-putima.ads		20250425081800 17291fe4 system.put_images%s
+D s-secsta.ads		20250425081800 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250425081800 5d88fdea system.soft_links%s
+D s-stache.ads		20250425081800 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20250425081800 5be75682 system.stack_usage%s
+D s-stalib.ads		20250425081800 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250425081800 ccded4e8 system.storage_elements%s
+D s-tasinf.ads		20250425081800 601f6b72 system.task_info%s
+D s-taspri.ads		20250425081800 602eebc0 system.task_primitives%s
+D s-taprop.ads		20250425081800 750673ca system.task_primitives.operations%s
+D s-taskin.ads		20250425081800 38289021 system.tasking%s
+D s-taprob.ads		20250425081800 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20250425081800 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20250425081800 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20250425081800 cca55c94 system.tasking.stages%s
+D s-traent.ads		20250425081800 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250425081800 fa2a7f59 system.unsigned_types%s
+D s-valspe.ads		20250425081800 f810d31c system.val_spec%s
+D s-vaispe.ads		20250425081800 8280550e system.value_i_spec%s
+D s-vauspe.ads		20250425081800 89269ba5 system.value_u_spec%s
+D s-vs_int.ads		20250425081800 06b6b724 system.vs_int%s
+D s-vs_lli.ads		20250425081800 b945cf7d system.vs_lli%s
+D s-vs_llu.ads		20250425081800 8f3536c5 system.vs_llu%s
+D s-vs_uns.ads		20250425081800 e7f47a27 system.vs_uns%s
+D s-wchcon.ads		20250425081800 d9032363 system.wch_con%s
+D s-win32.ads		20250425081800 f77987dc system.win32%s
+G a e
+G c Z b b [main standard 5 11 none]
+X 1 ada.ads
+18K9*Ada 22e8 23|1r6 1r23 2r6 2r31 3r6 3r25
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[17|46] 23|2w10 2r35
+X 10 a-reatim.ads
+46K13*Real_Time 193e18 23|3w10 3r29
+57O9*Time<duration> 23|46r20 76r20
+62O9*Time_Span<duration> 23|67r12 77r17
+69V13*Clock{57O9} 23|53s21 67s29 81s24 84s24
+79V14*"-"{62O9} 23|67s35 84s30
+115V14*">="{boolean} 23|88r30
+127V13*Milliseconds{62O9} 23|88s33
+X 16 a-textio.ads
+58K13*Text_IO 785e16 23|1w10 1r27
+565U14*Put_Line 23|9s4 11s4 21s4 25s4 31s7 54s7 61s7 102s4
+X 17 a-tiinio.ads
+62U14*Get 23|10s4[5|18] 23s7[5|18] 27s7[5|18]
+X 19 interfac.ads
+68I9*Integer_64<long_long_integer>
+X 23 main.adb
+5U11*Main 5b11 106l5 106t9
+6i4 threads_count{integer} 10m9 11r53 13r34 14r41 22r18 26r18 30r18 70r31
+. 86r27 99r18
+13A9 int_array(integer)<integer> 18r22
+14A9 stop_flags_array(boolean)<integer> 16r30 19r12
+18a4 steps{13A9} 27m12 27r12 33r45 100r45
+18a11 duration{13A9} 23m12 23r12 32r52 88r47
+19a4 flags{14A9} 56r17 87r23 89m22
+22i8 i{integer} 23r22
+26i8 i{integer} 27r19
+30i8 i{integer} 31r44 32r62 33r52
+37T14 main_thread 39l8 39e19 40b14 68l8 68t19 70r49
+38Y13 Run 38>18 38>35 48b14 51l11 51t14 100s23
+38i18 ID{integer} 49r22 100r28
+38i35 Step{integer} 50r24 100r37
+41i7 local_id{integer} 49m10 54r44 56r23 62r37
+42i7 local_step{integer} 50m10 54r98 59r43
+43i7 sum{long_long_integer} 57m10 57r16 64r37
+44i7 count{long_long_integer} 58m10 58r19 65r37
+45i7 curr{long_long_integer} 57r22 59m10 59r18
+46o7 start_time{10|57O9} 53m7 67r37
+48i19 ID{integer}
+48i36 Step{integer}
+70a4 threads_pool(37T14) 100r7
+72t9 stopper 75b14 97l8 97t15 103r4
+73Y13 Run 80b17 103s12
+76o7 start_time{10|57O9} 81m10 84r32
+77o7 elapsed{10|62O9} 84m13 88r22
+78b7 done{boolean} 85m13 91m22 95r23
+86i17 i{integer} 87r29 88r57 89r28
+99i8 i{integer} 100r20 100r34 100r52
+X 26 s-arit64.ads
+59I12*Int64{19|68I9}
+108V13*Multiply_With_Ovflo_Check64{59I12} 112i<c,__gnat_mulv64>22
+X 48 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+
