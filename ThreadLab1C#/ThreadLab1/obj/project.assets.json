@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\rofach\\Documents\\GitHub\\PPLab1\\ThreadLab1C#\\ThreadLab1\\ThreadLab1.csproj",
+      "projectUniqueName": "D:\\projects\\PPLab1\\PPLab1\\ThreadLab1C#\\ThreadLab1\\ThreadLab1.csproj",
       "projectName": "ThreadLab1",
-      "projectPath": "D:\\Users\\rofach\\Documents\\GitHub\\PPLab1\\ThreadLab1C#\\ThreadLab1\\ThreadLab1.csproj",
+      "projectPath": "D:\\projects\\PPLab1\\PPLab1\\ThreadLab1C#\\ThreadLab1\\ThreadLab1.csproj",
       "packagesPath": "C:\\Users\\rofach\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\rofach\\Documents\\GitHub\\PPLab1\\ThreadLab1C#\\ThreadLab1\\obj\\",
+      "outputPath": "D:\\projects\\PPLab1\\PPLab1\\ThreadLab1C#\\ThreadLab1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

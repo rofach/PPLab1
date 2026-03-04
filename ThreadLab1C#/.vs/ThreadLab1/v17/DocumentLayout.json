@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Users\\rofach\\Documents\\GitHub\\PPLab1\\ThreadLab1C#\\",
+  "WorkspaceRootPath": "D:\\projects\\PPLab1\\PPLab1\\ThreadLab1C#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48443603-EA9A-4CA1-962F-2B3E88E8C93A}|ThreadLab1\\ThreadLab1.csproj|d:\\users\\rofach\\documents\\github\\pplab1\\threadlab1c#\\threadlab1\\mainthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48443603-EA9A-4CA1-962F-2B3E88E8C93A}|ThreadLab1\\ThreadLab1.csproj|solutionrelative:threadlab1\\mainthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48443603-EA9A-4CA1-962F-2B3E88E8C93A}|ThreadLab1\\ThreadLab1.csproj|d:\\users\\rofach\\documents\\github\\pplab1\\threadlab1c#\\threadlab1\\threadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48443603-EA9A-4CA1-962F-2B3E88E8C93A}|ThreadLab1\\ThreadLab1.csproj|d:\\projects\\pplab1\\pplab1\\threadlab1c#\\threadlab1\\threadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48443603-EA9A-4CA1-962F-2B3E88E8C93A}|ThreadLab1\\ThreadLab1.csproj|solutionrelative:threadlab1\\threadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48443603-EA9A-4CA1-962F-2B3E88E8C93A}|ThreadLab1\\ThreadLab1.csproj|d:\\users\\rofach\\documents\\github\\pplab1\\threadlab1c#\\threadlab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48443603-EA9A-4CA1-962F-2B3E88E8C93A}|ThreadLab1\\ThreadLab1.csproj|d:\\projects\\pplab1\\pplab1\\threadlab1c#\\threadlab1\\mainthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48443603-EA9A-4CA1-962F-2B3E88E8C93A}|ThreadLab1\\ThreadLab1.csproj|solutionrelative:threadlab1\\mainthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48443603-EA9A-4CA1-962F-2B3E88E8C93A}|ThreadLab1\\ThreadLab1.csproj|d:\\projects\\pplab1\\pplab1\\threadlab1c#\\threadlab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48443603-EA9A-4CA1-962F-2B3E88E8C93A}|ThreadLab1\\ThreadLab1.csproj|solutionrelative:threadlab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48443603-EA9A-4CA1-962F-2B3E88E8C93A}|ThreadLab1\\ThreadLab1.csproj|d:\\users\\rofach\\documents\\github\\pplab1\\threadlab1c#\\threadlab1\\breakthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48443603-EA9A-4CA1-962F-2B3E88E8C93A}|ThreadLab1\\ThreadLab1.csproj|d:\\projects\\pplab1\\pplab1\\threadlab1c#\\threadlab1\\breakthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48443603-EA9A-4CA1-962F-2B3E88E8C93A}|ThreadLab1\\ThreadLab1.csproj|solutionrelative:threadlab1\\breakthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,36 +34,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainThread.cs",
-              "DocumentMoniker": "D:\\Users\\rofach\\Documents\\GitHub\\PPLab1\\ThreadLab1C#\\ThreadLab1\\MainThread.cs",
+              "DocumentMoniker": "D:\\projects\\PPLab1\\PPLab1\\ThreadLab1C#\\ThreadLab1\\MainThread.cs",
               "RelativeDocumentMoniker": "ThreadLab1\\MainThread.cs",
-              "ToolTip": "D:\\Users\\rofach\\Documents\\GitHub\\PPLab1\\ThreadLab1C#\\ThreadLab1\\MainThread.cs",
+              "ToolTip": "D:\\projects\\PPLab1\\PPLab1\\ThreadLab1C#\\ThreadLab1\\MainThread.cs",
               "RelativeToolTip": "ThreadLab1\\MainThread.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-21T14:57:43.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ThreadManager.cs",
-              "DocumentMoniker": "D:\\Users\\rofach\\Documents\\GitHub\\PPLab1\\ThreadLab1C#\\ThreadLab1\\ThreadManager.cs",
+              "DocumentMoniker": "D:\\projects\\PPLab1\\PPLab1\\ThreadLab1C#\\ThreadLab1\\ThreadManager.cs",
               "RelativeDocumentMoniker": "ThreadLab1\\ThreadManager.cs",
-              "ToolTip": "D:\\Users\\rofach\\Documents\\GitHub\\PPLab1\\ThreadLab1C#\\ThreadLab1\\ThreadManager.cs",
+              "ToolTip": "D:\\projects\\PPLab1\\PPLab1\\ThreadLab1C#\\ThreadLab1\\ThreadManager.cs",
               "RelativeToolTip": "ThreadLab1\\ThreadManager.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAE8AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T11:55:38.179Z"
+              "WhenOpened": "2026-02-21T11:55:38.179Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "BreakThread.cs",
-              "DocumentMoniker": "D:\\Users\\rofach\\Documents\\GitHub\\PPLab1\\ThreadLab1C#\\ThreadLab1\\BreakThread.cs",
+              "DocumentMoniker": "D:\\projects\\PPLab1\\PPLab1\\ThreadLab1C#\\ThreadLab1\\BreakThread.cs",
               "RelativeDocumentMoniker": "ThreadLab1\\BreakThread.cs",
-              "ToolTip": "D:\\Users\\rofach\\Documents\\GitHub\\PPLab1\\ThreadLab1C#\\ThreadLab1\\BreakThread.cs",
+              "ToolTip": "D:\\projects\\PPLab1\\PPLab1\\ThreadLab1C#\\ThreadLab1\\BreakThread.cs",
               "RelativeToolTip": "ThreadLab1\\BreakThread.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,9 +74,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Users\\rofach\\Documents\\GitHub\\PPLab1\\ThreadLab1C#\\ThreadLab1\\Program.cs",
+              "DocumentMoniker": "D:\\projects\\PPLab1\\PPLab1\\ThreadLab1C#\\ThreadLab1\\Program.cs",
               "RelativeDocumentMoniker": "ThreadLab1\\Program.cs",
-              "ToolTip": "D:\\Users\\rofach\\Documents\\GitHub\\PPLab1\\ThreadLab1C#\\ThreadLab1\\Program.cs",
+              "ToolTip": "D:\\projects\\PPLab1\\PPLab1\\ThreadLab1C#\\ThreadLab1\\Program.cs",
               "RelativeToolTip": "ThreadLab1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

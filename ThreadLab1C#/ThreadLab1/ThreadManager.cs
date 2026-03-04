@@ -33,8 +33,6 @@ namespace ThreadLab1
             Thread stopperThread = new Thread(breakThread.Run);
 
             stopperThread.Start();
-            stopperThread.Join();
-            Console.WriteLine("Усі потоки завершили роботу.");
         }
 
         private static List<int> GetThreadDurations(short threadCount)

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThreadLab1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+405990bde82014493a4fa736d26234cd1da84c47")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c392b0563225ec0263d786548e40a2fe3c903499")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThreadLab1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThreadLab1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

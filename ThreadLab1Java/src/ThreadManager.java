@@ -32,13 +32,6 @@ public class ThreadManager implements Runnable {
 
         stopperThread.start();
 
-        try {
-            stopperThread.join();
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
-        
-        System.out.println("All threads have finished.");
     }
 
     private List<Integer> getDurations(short threadCount) {
