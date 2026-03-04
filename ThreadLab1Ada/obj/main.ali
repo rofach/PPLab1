@@ -25,7 +25,7 @@ RV NO_IMPLICIT_LOOPS
 RV MAX_TASK_ENTRIES=1
 RV MAX_TASKS=1+
 
-U main%b		main.adb		4d558050 NE OO SU
+U main%b		main.adb		8a08a87e NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -69,7 +69,7 @@ D interfac.ads		20250425081800 9111f9c1 interfaces%s
 D i-c.ads		20250425081800 e94c966a interfaces.c%s
 D i-cstrin.ads		20250425081800 5409c1a4 interfaces.c.strings%s
 D i-cstrea.ads		20250425081800 ffd01b9d interfaces.c_streams%s
-D main.adb		20260303215320 5ee73dd7 main%b
+D main.adb		20260304141706 99ba15f9 main%b
 D system.ads		20250425081800 a869df9e system%s
 D s-atacco.ads		20250425081800 5868e3ba system.address_to_access_conversions%s
 D s-arit64.ads		20250425081800 e45973b2 system.arith_64%s
@@ -124,51 +124,56 @@ X 5 a-inteio.ads
 18K13*Integer_Text_IO[17|46] 23|2w10 2r35
 X 10 a-reatim.ads
 46K13*Real_Time 193e18 23|3w10 3r29
-57O9*Time<duration> 23|46r20 76r20
-62O9*Time_Span<duration> 23|67r12 77r17
-69V13*Clock{57O9} 23|53s21 67s29 81s24 84s24
-79V14*"-"{62O9} 23|67s35 84s30
-115V14*">="{boolean} 23|88r30
-127V13*Milliseconds{62O9} 23|88s33
+57O9*Time<duration> 23|24r20 52r20
+62O9*Time_Span<duration> 23|45r12 53r17
+69V13*Clock{57O9} 23|31s21 45s29 60s24 63s24
+79V14*"-"{62O9} 23|45s35 63s30
+115V14*">="{boolean} 23|67r30
+127V13*Milliseconds{62O9} 23|67s33
 X 16 a-textio.ads
 58K13*Text_IO 785e16 23|1w10 1r27
-565U14*Put_Line 23|9s4 11s4 21s4 25s4 31s7 54s7 61s7 102s4
+565U14*Put_Line 23|32s7 39s7 78s4 80s4 83s4 87s4 93s7 106s4
 X 17 a-tiinio.ads
-62U14*Get 23|10s4[5|18] 23s7[5|18] 27s7[5|18]
+62U14*Get 23|79s4[5|18] 85s7[5|18] 89s7[5|18]
 X 19 interfac.ads
 68I9*Integer_64<long_long_integer>
 X 23 main.adb
-5U11*Main 5b11 106l5 106t9
-6i4 threads_count{integer} 10m9 11r53 13r34 14r41 22r18 26r18 30r18 70r31
-. 86r27 99r18
-13A9 int_array(integer)<integer> 18r22
-14A9 stop_flags_array(boolean)<integer> 16r30 19r12
-18a4 steps{13A9} 27m12 27r12 33r45 100r45
-18a11 duration{13A9} 23m12 23r12 32r52 88r47
-19a4 flags{14A9} 56r17 87r23 89m22
-22i8 i{integer} 23r22
-26i8 i{integer} 27r19
-30i8 i{integer} 31r44 32r62 33r52
-37T14 main_thread 39l8 39e19 40b14 68l8 68t19 70r49
-38Y13 Run 38>18 38>35 48b14 51l11 51t14 100s23
-38i18 ID{integer} 49r22 100r28
-38i35 Step{integer} 50r24 100r37
-41i7 local_id{integer} 49m10 54r44 56r23 62r37
-42i7 local_step{integer} 50m10 54r98 59r43
-43i7 sum{long_long_integer} 57m10 57r16 64r37
-44i7 count{long_long_integer} 58m10 58r19 65r37
-45i7 curr{long_long_integer} 57r22 59m10 59r18
-46o7 start_time{10|57O9} 53m7 67r37
-48i19 ID{integer}
-48i36 Step{integer}
-70a4 threads_pool(37T14) 100r7
-72t9 stopper 75b14 97l8 97t15 103r4
-73Y13 Run 80b17 103s12
-76o7 start_time{10|57O9} 81m10 84r32
-77o7 elapsed{10|62O9} 84m13 88r22
-78b7 done{boolean} 85m13 91m22 95r23
-86i17 i{integer} 87r29 88r57 89r28
-99i8 i{integer} 100r20 100r34 100r52
+5U11*Main 5b11 110l5 110t9
+6i4 threads_count{integer} 7r34 8r41 65r27 79m9 80r53 84r18 88r18 92r18 100r28
+. 103r18
+7A9 int_array(integer)<integer> 12r22 49r27 55r22 57r31
+8A9 stop_flags_array(boolean)<integer> 10r30 13r12 16r29 26r66
+12a4 steps{7A9} 89m12 89r12 95r45 104r45
+12a11 duration{7A9} 85m12 85r12 94r52 107r24
+13a4 flags{8A9} 34r17 66r23 68m22 104r65
+14T14 main_thread 17l8 17e19 18b14 46l8 46t19 100r46
+15Y13 Run 15>18 15>35 16>18 26b14 29l11 29t14 104s23
+15i18 ID{integer} 27r22 104r28
+15i35 Step{integer} 28r24 104r37
+16a18 flags{8A9} 104r56
+19i7 local_id{integer} 27m10 32r44 34r23 40r37
+20i7 local_step{integer} 28m10 32r98 37r43
+21i7 sum{long_long_integer} 35m10 35r16 42r37
+22i7 count{long_long_integer} 36m10 36r19 43r37
+23i7 curr{long_long_integer} 35r22 37m10 37r18
+24o7 start_time{10|57O9} 31m7 45r37
+26i19 ID{integer}
+26i36 Step{integer}
+26a55 flags{8A9}
+48t6 stopper 51b14 76l8 76t15 107r4
+49Y13 Run 49>18 57b17 59l14 59t17 107s12
+49a18 dur{7A9} 58r29 107r17
+52o7 start_time{10|57O9} 60m10 63r32
+53o7 elapsed{10|62O9} 63m13 67r22
+54b7 done{boolean} 64m13 70m22 74r23
+55a7 internal_dur{7A9} 58m13 67r47
+57a22 dur{7A9}
+65i17 i{integer} 66r29 67r60 68r28
+84i8 i{integer} 85r22
+88i8 i{integer} 89r19
+92i8 i{integer} 93r44 94r62 95r52
+100a1 threads_pool(14T14) 104r7
+103i8 i{integer} 104r20 104r34 104r52
 X 26 s-arit64.ads
 59I12*Int64{19|68I9}
 108V13*Multiply_With_Ovflo_Check64{59I12} 112i<c,__gnat_mulv64>22

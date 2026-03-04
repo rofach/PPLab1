@@ -318,9 +318,9 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   D:\Users\rofach\Documents\GitHub\PPLab1\ThreadLab1Ada\obj\main.o
-   --   -LD:\Users\rofach\Documents\GitHub\PPLab1\ThreadLab1Ada\obj\
-   --   -LD:\Users\rofach\Documents\GitHub\PPLab1\ThreadLab1Ada\obj\
+   --   D:\projects\PPLab1\PPLab1\ThreadLab1Ada\obj\main.o
+   --   -LD:\projects\PPLab1\PPLab1\ThreadLab1Ada\obj\
+   --   -LD:\projects\PPLab1\PPLab1\ThreadLab1Ada\obj\
    --   -LD:/gnat/gnat-x86_64-windows64-15.1.0-2/lib/gcc/x86_64-w64-mingw32/15.1.0/adalib/
    --   -static
    --   -lgnarl
